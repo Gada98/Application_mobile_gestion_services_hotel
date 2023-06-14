@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.serviceshotel">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Golden Service"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FullView"
+            android:theme="@style/fullViewTheme"/>
+        <activity android:name=".Galerie"
+            android:label="@string/title_galerie"/>
+        <activity
+            android:name=".inscription"
+            android:label="@string/title_inscritActivity" />
+        <activity
+            android:name=".inscrit_chef"
+            android:label="@string/title_inscritChef" />
+        <activity
+            android:name=".inscrit_receptionniste"
+            android:label="@string/title_inscritReceptionniste" />
+        <activity
+            android:name=".inscrit_responsable"
+            android:label="@string/title_inscritResponsable" />
+        <activity
+            android:name=".inscrit_client"
+            android:label="@string/title_inscritClient" />
+        <activity
+            android:name=".log_client"
+            android:label="@string/title_logClient" />
+        <activity
+            android:name=".log_chef"
+            android:label="@string/title_logChef" />
+        <activity
+            android:name=".log_receptionniste"
+            android:label="@string/title_logReceptionniste" />
+        <activity
+            android:name=".log_responsable"
+            android:label="@string/title_logResponsable" />
+        <activity
+            android:name=".redirection"
+            android:label="@string/title_redirection" />
+        <activity
+            android:name=".log_gerant"
+            android:label="@string/title_logGerant" />
+        <activity
+            android:name=".sup_chef"
+            android:label="@string/title_suppChef" />
+        <activity
+            android:name=".sup_receptionniste"
+            android:label="@string/title_suppReceptionniste" />
+        <activity
+            android:name=".sup_responsable"
+            android:label="@string/title_suppResponsable" />
+        <activity
+            android:name=".modif_chef"
+            android:label="@string/title_modifChef" />
+        <activity
+            android:name=".modif_responsable"
+            android:label="@string/title_modifResponsable" />
+        <activity
+            android:name=".modif_receptionniste"
+            android:label="@string/title_modifReceptionniste" />
+        <activity
+            android:name=".ajout_chef"
+            android:label="@string/title_ajoutChef" />
+        <activity
+            android:name=".ajout_receptionniste"
+            android:label="@string/title_ajoutReceptionniste" />
+        <activity
+            android:name=".ajout_responsable"
+            android:label="@string/title_ajoutResponsable" />
+        <activity
+            android:name=".listFacture"
+            android:label="@string/title_listFacture" />
+        <activity
+            android:name=".listChambre"
+            android:label="@string/title_listChambre" />
+        <activity
+            android:name=".menuRestaurant"
+            android:label="@string/title_menuRestaurant" />
+        <activity
+            android:name=".menuSpa"
+            android:label="@string/title_menuSpa" />
+        <activity
+            android:name=".menuBar"
+            android:label="@string/title_menuBar" />
+        <activity
+            android:name=".menuCafe"
+            android:label="@string/title_menuCafe" />
+        <activity
+            android:name=".accueil_restaurant"
+            android:label="@string/title_accueil_restaurant" />
+        <activity
+            android:name=".accueil_spa"
+            android:label="@string/title_accueil_spa" />
+        <activity
+            android:name=".accueil_bar"
+            android:label="@string/title_accueil_bar" />
+        <activity
+            android:name=".accueil_cafe"
+            android:label="@string/title_accueil_cafe" />
+        <activity
+            android:name=".modMDP"
+            android:label="@string/title_modMDP" />
+        <activity
+            android:name=".profChef"
+            android:label="@string/title_profChef" />
+        <activity
+            android:name=".profReceptionniste"
+            android:label="@string/title_profReceptionniste" />
+        <activity
+            android:name=".profResponsable"
+            android:label="@string/title_profResponsable" />
+        <activity
+            android:name=".profGerant"
+            android:label="@string/title_profGerant" />
+        <activity
+            android:name=".gerer_restaurant"
+            android:label="@string/title_gerer_restaurant" />
+        <activity
+            android:name=".services"
+            android:label="@string/title_services_activity" />
+        <activity
+            android:name=".gerer_personnelles"
+            android:label="@string/title_gerer_personnelles" />
+        <activity
+            android:name=".reception"
+            android:label="@string/title_reception_activity" />
+        <activity
+            android:name=".gerer_cafe"
+            android:label="@string/title_gerer_cafe" />
+        <activity
+            android:name=".gerer_bar"
+            android:label="@string/title_gerer_bar" />
+        <activity
+            android:name=".gerer_spa"
+            android:label="@string/title_gerer_spa" />
+        <activity
+            android:name=".ajoutFact"
+            android:label="@string/title_ajoutFact" />
+        <activity
+            android:name=".ajoutReserv"
+            android:label="@string/title_ajoutReserv" />
+        <activity
+            android:name=".modifFact"
+            android:label="@string/title_modifFact" />
+        <activity
+            android:name=".modifReserv"
+            android:label="@string/title_modifReserv" />
+        <activity
+            android:name=".suppReserv"
+            android:label="@string/title_suppReserv" />
+        <activity
+            android:name=".suppFact"
+            android:label="@string/title_suppFact" />
+        <activity
+            android:name=".accueil_client"
+            android:label="@string/accl_client" />
+    </application>
+
+</manifest>

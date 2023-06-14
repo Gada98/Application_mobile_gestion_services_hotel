@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Gestion de café"
+            android:textColor="#090505"
+            android:textSize="30sp"
+            app:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Café :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Prix :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/caf1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/caf2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/caf3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/caf4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/caf5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pr1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr4"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Jus :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Prix :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/jus1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/jus2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/jus3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/jus4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/jus5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pr6"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr7"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr8"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr9"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr10"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Thé :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Prix :"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/the1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/the2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/the3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/the4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/the5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pr11"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr12"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr13"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr14"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pr15"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button38"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:text="Enregistrer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+</LinearLayout>

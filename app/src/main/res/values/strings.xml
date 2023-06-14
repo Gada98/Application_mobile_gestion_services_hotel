@@ -1,0 +1,115 @@
+<resources>
+    <string name="main_activity_title" translatable="false">Main Activity Title</string>
+
+    <string name="title_accHotel" translatable="false">accueil_hotel</string>
+    <string name="title_login" translatable="false">login</string>
+    <string name="title_accl_client" translatable="false">accueil_client</string>
+    <string name="title_accueil_bar" translatable="false">accueil_bar</string>
+    <string name="title_accueil_cafe" translatable="false">accueil_cafe</string>
+    <string name="title_accueil_spa" translatable="false">accueil_spa</string>
+    <string name="title_accueil_restaurant" translatable="false">accueil_restaurant</string>
+    <string name="title_ajoutFact" translatable="false">ajouter_facture</string>
+    <string name="title_modifFact" translatable="false">modifier_facture</string>
+    <string name="title_suppFact" translatable="false">supprimer_facture</string>
+    <string name="title_ajoutReserv" translatable="false">ajouter_reservation</string>
+    <string name="title_modifReserv" translatable="false">modifier_reservation</string>
+    <string name="title_suppReserv" translatable="false">supprimer_reservation</string>
+    <string name="title_inscritActivity" translatable="false">inscription</string>
+    <string name="title_modMDP" translatable="false">Changer_mot_de_passe</string>
+    <string name="title_Menu" translatable="false">Menu</string>
+    <string name="title_menuBar" translatable="false">menu_bar</string>
+    <string name="title_menuCafe" translatable="false">menu_cafe</string>
+    <string name="title_menuSpa" translatable="false">menu_spa</string>
+    <string name="title_menuRestaurant" translatable="false">menu_restaurant</string>
+    <string name="title_gerer_cafe" translatable="false">gestion_menu_cafe</string>
+    <string name="title_gerer_bar" translatable="false">gestion_menu_bar</string>
+    <string name="title_gerer_spa" translatable="false">gestion_menu_spa</string>
+    <string name="title_gerer_restaurant" translatable="false">gestion_menu_restaurant</string>
+    <string name="title_gerer_personnelles" translatable="false">gestion_personnelles</string>
+    <string name="title_profChef" translatable="false">profil_chef_cuisinier</string>
+    <string name="title_profGerant" translatable="false">profil_gerant</string>
+    <string name="title_profReceptionniste" translatable="false">profil_receptionniste</string>
+    <string name="title_profResponsable" translatable="false">profil_responsable</string>
+    <string name="title_reception_activity" translatable="false">accueil_reception</string>
+    <string name="title_services_activity" translatable="false">liste_services_hoteliers</string>
+    <string name="title_inscritResponsable" translatable="false">inscription_responsable</string>
+    <string name="title_inscritReceptionniste" translatable="false">inscription_receptionniste</string>
+    <string name="title_inscritChef" translatable="false">inscription_chef</string>
+    <string name="title_inscritClient" translatable="false">inscription_client</string>
+    <string name="title_logGerant" translatable="false">authentification_gerant</string>
+    <string name="title_logResponsable" translatable="false">authentification_responsable</string>
+    <string name="title_logReceptionniste" translatable="false">authentification_receptionniste</string>
+    <string name="title_logChef" translatable="false">authentification_chef</string>
+    <string name="title_logClient" translatable="false">authentification_client</string>
+    <string name="title_redirection" translatable="false">buttons des interfaces d\'authentification</string>
+    <string name="title_listChambre" translatable="false">liste_chambres</string>
+    <string name="title_listFacture" translatable="false">liste_factures</string>
+    <string name="title_ajoutResponsable" translatable="false">ajouter_responsable</string>
+    <string name="title_ajoutReceptionniste" translatable="false">ajouter_receptionniste</string>
+    <string name="title_ajoutChef" translatable="false">ajouter_chef</string>
+    <string name="title_modifResponsable" translatable="false">modifier_responsable</string>
+    <string name="title_modifReceptionniste" translatable="false">modifier_receptionniste</string>
+    <string name="title_modifChef" translatable="false">modifier_chef</string>
+    <string name="title_suppResponsable" translatable="false">supprimer_responsable</string>
+    <string name="title_suppReceptionniste" translatable="false">supprimer_receptionniste</string>
+    <string name="title_suppChef" translatable="false">supprimer_chef</string>
+    <string name="title_galerie" translatable="false">Galerie d\'hotel</string>
+
+
+    <string name="get_inscrit">Formulaire d\'inscription de client</string>
+    <string name="get_nom">Nom</string>
+    <string name="get_prénom">Prénom</string>
+    <string name="get_nationalité">Nationalité</string>
+    <string name="get_cin">N° CIN</string>
+    <string name="get_adresse">Adresse</string>
+    <string name="get_télé">Téléphone</string>
+    <string name="get_pass">N° passeport</string>
+    <string name="get_date1">Date d\'arrivé</string>
+    <string name="get_date2">Date de départ</string>
+    <string name="get_email">Email</string>
+    <string name="get_login">Login</string>
+    <string name="get_mot">Mot_de_passe</string>
+    <string name="btn1">Enregistrer</string>
+    <string name="select_langue">français</string>
+    <string name="get_boissons">Boissons</string>
+    <string name="get_animation">Animations</string>
+    <string name="get_chanteur">Chanteur:</string>
+    <string name="get_musicien">Musicien:</string>
+    <string name="get_café">Café</string>
+    <string name="get_jus">Jus</string>
+    <string name="get_the">Thé</string>
+    <string name="get_salade">Salade</string>
+    <string name="get_plat">Plat tunisien</string>
+    <string name="get_poisson">Poisson</string>
+    <string name="get_dissert">Dissert</string>
+    <string name="get_prix">Prix</string>
+    <string name="spa1">Massothérapie</string>
+    <string name="spa2">Thérapies énergétiques</string>
+    <string name="spa3">Traitements d\'hydrothérapie</string>
+    <string name="spa4">Traitements corporels</string>
+    <string name="spa5">Traitements des ongles</string>
+    <string name="spa6">Maquillage  &amp; épilation</string>
+    <string name="get_durée">Durée</string>
+    <string name="phrase1">Bienvenue notre chers clients. Nous présentons des boissons très délicieux et des bonnes animations.</string>
+    <string name="phrase2">Bienvenue notre chers clients</string>
+    <string name="phrase3">Bienvenu notre chers clients dans notre restaurant</string>
+    <string name="get_rest">Restaurant</string>
+    <string name="get_spa">Spa &amp; Beauté</string>
+    <string name="get_caff">Café</string>
+    <string name="get_bar">Bar</string>
+    <string name="btn_inscrit">inscrire</string>
+    <string name="title_inscrit">CONNECTEZ ESPACE CLIENT</string>
+    <string name="btn_connect">Connecter</string>
+    <string name="buton_galerie">voir galerie</string>
+
+
+
+</resources>
+
+
+
+
+
+
+
+

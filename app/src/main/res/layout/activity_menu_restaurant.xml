@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:background="@color/TEAL">
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Menu"
+            android:textColor="#050303"
+            android:textSize="50sp"
+            app:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_salade"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_prix"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lesal1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/lesal2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/lesal3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/lesal4"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lepr1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr4"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_plat"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_prix"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/leplat1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/leplat2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/leplat3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/leplat4"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/leplat5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lepr5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr6"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr7"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr8"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr9"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_poisson"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_prix"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lepoiss1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepoiss2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepoiss3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lepr10"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr11"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr12"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_dissert"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="@string/get_prix"
+                android:textColor="#050303"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lediss1"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lediss2"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lediss3"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lediss4"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lediss5"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lepr13"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+
+            <TextView
+                android:id="@+id/lepr14"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr15"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr16"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/lepr17"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_weight="0.05"
+                android:ems="10"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

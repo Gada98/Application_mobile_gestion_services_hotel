@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">AmirPalace</string>
+    <string name="login" translatable="false">login</string>
+    <string name="accHotel" translatable="false">accueil_hotel</string>
+    <string name="accl_client" translatable="false">accueil_client</string>
+    <string name="accueil_bar" translatable="false">accueil_bar</string>
+    <string name="accueil_cafe" translatable="false">accueil_cafe</string>
+    <string name="accueil_spa" translatable="false">accueil_spa</string>
+    <string name="accueil_restaurant" translatable="false">accueil_restaurant</string>
+    <string name="ajoutFact" translatable="false">ajouter_facture</string>
+    <string name="modifFact" translatable="false">modifier_facture</string>
+    <string name="suppFact" translatable="false">supprimer_facture</string>
+    <string name="ajoutReserv" translatable="false">ajouter_reservation</string>
+    <string name="modifReserv" translatable="false">modifier_reservation</string>
+    <string name="suppReserv" translatable="false">supprimer_reservation</string>
+    <string name="inscritActivity" translatable="false">inscription</string>
+    <string name="modMDP" translatable="false">Changer_mot_de_passe</string>
+    <string name="Menu" translatable="false">Menu</string>
+    <string name="menuBar" translatable="false">menu_bar</string>
+    <string name="menuCafe" translatable="false">menu_cafe</string>
+    <string name="menuSpa" translatable="false">menu_spa</string>
+    <string name="menuRestaurant" translatable="false">menu_restaurant</string>
+    <string name="gerer_cafe" translatable="false">gestion_menu_cafe</string>
+    <string name="gerer_bar" translatable="false">gestion_menu_bar</string>
+    <string name="gerer_spa" translatable="false">gestion_menu_spa</string>
+    <string name="gerer_restaurant" translatable="false">gestion_menu_restaurant</string>
+    <string name="gerer_personnelles" translatable="false">gestion_personnelles</string>
+    <string name="profChef" translatable="false">profil_chef_cuisinier</string>
+    <string name="profGerant" translatable="false">profil_gerant</string>
+    <string name="profReceptionniste" translatable="false">profil_receptionniste</string>
+    <string name="profResponsable" translatable="false">profil_responsable</string>
+    <string name="reception_activity" translatable="false">accueil_reception</string>
+    <string name="services_activity" translatable="false">liste_services_hoteliers</string>
+
+</resources>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/get_inscrit"
+            android:textColor="#090707"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtNom"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="@string/get_nom"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtPrenom"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="@string/get_prénom"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtNat"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="@string/get_nationalité"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtCin"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="N_CIN"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtAdd"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:ems="10"
+            android:hint="@string/get_adresse"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:background="@drawable/round_edittext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtTele"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:ems="10"
+            android:hint="@string/get_télé"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:background="@drawable/round_edittext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:ems="10"
+            android:hint="@string/get_email"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:background="@drawable/round_edittext"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtPasseport"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="N_passeport"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtArrive"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="Date_arrive"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtDepart"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="Date_départ"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtPsd"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:ems="10"
+            android:hint="@string/get_login"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:background="@drawable/round_edittext"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtMdp"
+            android:layout_width="400dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/regbtn"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/btn1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
